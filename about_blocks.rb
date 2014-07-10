@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 
 class AboutBlocks < Neo::Koan
   def method_with_block
-    result = yield
+    result = yield # yield means call the block
     result
   end
 
